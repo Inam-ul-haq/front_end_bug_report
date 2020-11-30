@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="profile-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <title>Profile</title>
+  </head>
+  <body>
+   
+    <div class="wrapper">
+      <nav id="sidebar">
+       <img src="./images/group-icon.png" alt="img">
+       <p class="group-text"><i class="fa fa-users"> Groups</i><a href="#"> <i class="fa fa-plus plus-icon"></i></a></p>
+ 
+       <ul>
+         <li><i class="fa fa-user"></i>&nbsp &nbsp Group 1</li>
+         <li><i class="fa fa-user"></i>&nbsp &nbsp Group 2</li>
+         <li><i class="fa fa-user"></i>&nbsp &nbsp Group 3</li>
+         <li><i class="fa fa-user"></i>&nbsp &nbsp Group 4</li>
+ 
+       </ul>
+ 
+       <p class="todo-text"><i class="fa fa-tasks"></i> ToDo Items <a href="#"><i class="fa fa-plus plus-icon-todo"></a></i></p>
+ 
+       <ul>
+         <li><i class="fa fa-list-ul"></i></i>&nbsp &nbsp ToDo Items 1</li>
+         <li><i class="fa fa-list-ul"></i>&nbsp &nbsp ToDo Items 2</li>
+         <li><i class="fa fa-list-ul"></i>&nbsp &nbsp ToDo Items 3</li>
+         <li><i class="fa fa-list-ul"></i>&nbsp &nbsp ToDo Items 4</li>
+ 
+       </ul>
+ 
+       <button class="btn btn-primary bug-button" data-toggle="modal" data-target=".bd-example-modal-lg">
+         <i class="fa fa-plus-circle ">&nbsp Add Bug</i>
+       </button>
+       <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="row my-container">
+              <div class="col-5">
+                <form>
+                  <div class="form-group my-form">
+                    <label for="project-title">Project Title</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Title Here">
+                  </div>
+                  <div class="form-group">
+                    <label for="project-priority">Project Priority</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Title Priority">
+                  </div>
+                  <div class="form-group">
+                    <label for="reporter-name">Reporter Name</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Reporter Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" placeholder="Enter Your Description" rows="6"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary create-bug-button">Create Bug</button>
+                </form>
+              </div>
+
+              <div class="col-5">
+                <div class="border-dotted border-section">
+                  <div class="img-set"><img src="./images/modal.jpg" alt="profile-image">
+                <p><br>Drop your image here, or <a href="#">Browse</a></p>
+                <p>Support JPG, JPEG2000, PNG</p>
+              </div>
+			    </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+     </nav>
+      
+   	<div id="content">
+        <nav class="navbar">
+		          <input type="text" class="form-control" placeholder="&#128269;Search " id="searchbar-nav">
+	
+              <a href="#"><img src="./images/profile-1.png" class="navbar-image1" width="40" height="40" id="searchbar-img" alt="profile-image1"></a>
+            <hr>
+          </nav>
+          
+    
+          <nav class="navbar navbar-expand-lg navbar-light navbar-2">
+              <a href="#"><img src="./images/icons8-arrow-pointing-left-64.png" width=30 alt="left Arrow"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="navbar-nav">
+                <a class="nav-item nav-link nav-text" href="#">Proj_00007</a>
+                <a class="nav-item nav-link nav-text" href="#">Project Name <i class="fa fa-edit"></i><span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link nav-text" href="#">Cost</a>
+                <a class="nav-item nav-link nav-text" href="#">Start Date</a>
+                <a class="nav-item nav-link nav-text" href="#">End Date</a>
+              </div>
+          </nav>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+                  <p>ToDo Items</p>
+                  <hr>
+                  <section>
+                  <div class="row">
+                    <div class="col-4">
+                      <p>Items</p>
+                    </div>
+
+                    <div class="col-6">
+                      <p>Assignee</p>
+                    </div>
+
+                    <div class="col-2">
+                      <a href="#"><i class="fa fa-edit"></a></i>
+                      <a href="#"><i class="fa fa-eye"></a></i>
+                      <a href="#"><i class="fa fa-trash"></a></i>
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <div class="row">
+                    <div class="col-4">
+                      <p>Items</p>
+                    </div>
+
+                    <div class="col-6">
+                      <p>Assignee</p>
+                    </div>
+
+                    <div class="col-2">
+                      <a href="#"><i class="fa fa-edit"></a></i>
+                      <a href="#"><i class="fa fa-eye"></a></i>
+                      <a href="#"><i class="fa fa-trash"></a></i>
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <div class="row">
+                    <div class="col-4">
+                      <p>Items</p>
+                    </div>
+
+                    <div class="col-6">
+                      <p>Assignee</p>
+                    </div>
+
+                    <div class="col-2">
+                      <a href="#"><i class="fa fa-edit"></a></i>
+                      <a href="#"><i class="fa fa-eye"></a></i>
+                      <a href="#"><i class="fa fa-trash"></a></i>
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <div class="row">
+                    <div class="col-4">
+                      <p>Items</p>
+                    </div>
+
+                    <div class="col-6">
+                      <p>Assignee</p>
+                    </div>
+
+                    <div class="col-2">
+                      <a href="#"><i class="fa fa-edit"></a></i>
+                      <a href="#"><i class="fa fa-eye"></a></i>
+                      <a href="#"><i class="fa fa-trash"></a></i>
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <div class="row">
+                    <div class="col-4">
+                      <p>Items</p>
+                    </div>
+
+                    <div class="col-6">
+                      <p>Assignee</p>
+                    </div>
+
+                    <div class="col-2">
+                      <a href="#"><i class="fa fa-edit"></a></i>
+                      <a href="#"><i class="fa fa-eye"></a></i>
+                      <a href="#"><i class="fa fa-trash"></a></i>
+                    </div>
+                  </div>
+                </section>
+                
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+                  <p>Messages</p>
+                  <hr>
+                  <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                      <input id="searchbar-card" class="form-control search-box" type="search" placeholder="Search" aria-label="Search">
+                      <button id="btn-crd1" class="btn btn-primary my-2 my-sm-0" type="submit">Quick Filter</button>
+                      <button id="btn-crd2" class="btn btn-primary my-2 my-sm-0" type="submit">Assign Label</button>
+                    </form>
+                  </nav>
+
+                  <section>
+                  <div class="row">
+                  <div class="col-1">
+                    <a class="navbar-brand" href="#">
+                      <img src="./images/profile-2.png" width="35" height="35" alt="profile-image2">
+                    </a>
+                    </div>
+                    <div class="col-9">
+                      <p><a href="#">Ahmer Ilyas</a></p>
+                      <p class="text-custom" id="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                          Pariatur a repudiandae 
+                      </p>
+                      </div>
+                    </div>
+                  </section>
+                  
+                </div>
+              </div>
+            </div> 
+
+          </div>
+    </div>
+   	
+   </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
